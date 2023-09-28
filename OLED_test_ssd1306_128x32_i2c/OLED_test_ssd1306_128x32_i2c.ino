@@ -86,7 +86,7 @@ void setup() {
   // drawing operations and then update the screen all at once by calling
   // display.display(). These examples demonstrate both approaches...
 
-  testdrawline();      // Draw many lines
+/*  testdrawline();      // Draw many lines
 
   testdrawrect();      // Draw rectangles (outlines)
 
@@ -102,7 +102,7 @@ void setup() {
 
   testdrawtriangle();  // Draw triangles (outlines)
 
-  testfilltriangle();  // Draw triangles (filled)
+  testfilltriangle();  // Draw triangles (filled) */
 
   testdrawchar();      // Draw characters of the default font
 
@@ -110,7 +110,7 @@ void setup() {
 
   testscrolltext();    // Draw scrolling text
 
-  testdrawbitmap();    // Draw a small bitmap image
+/*  testdrawbitmap();    // Draw a small bitmap image
 
   // Invert and restore display, pausing in-between
   display.invertDisplay(true);
@@ -119,6 +119,7 @@ void setup() {
   delay(1000);
 
   testanimate(logo_bmp, LOGO_WIDTH, LOGO_HEIGHT); // Animate bitmaps
+*/
 }
 
 void loop() {
